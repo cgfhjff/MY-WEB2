@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="logo-design , logo , logo , ghafour , GHAFOUR ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/hjhjjh logo me.png">
+    <title>AB Ghafour</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #0d1b1e;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: #6A8EAE;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.ghafour a{
+    color: #6A8EAE;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.ghafour a:hover{
+    color: #B9B8D3;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/background\ copy.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #6A8EAE;
+    font-size: 2em;
+    font-weight: 600;
+}
+.main h3{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: #fff;
+    background-color: #6A8EAE;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover {
+    background-color: #2b77b9;
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: #FFF8F0;
+    font-size: 2em;
+    padding-right: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #6A8EAE;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #FFF8F0;
+    width: 25.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #0D1B1E;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #6A8EAE;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.Projects{
+    background-color: #0D1B1E;
+}
+.Projects .content{
+    margin-top: 30px;
+}
+.Projects-card{
+    background-color: #FFF8F0;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 16em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.Projects-card:hover {
+    transform: scale(1.1);
+}
+.Projects-card:hover .Projects-image{
+    opacity: 0.9;
+}
+.Projects-image img{
+    width: 100%;
+}
+.Projects-info{
+    padding: 1em;
+}
+.Projects-category{
+    font-size: 0.8em;
+    color: #000;
+}
+.Projects-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color: #6A8EAE;
+}
+.more-details:hover{
+    color: #2b77b9;
+}
+.contact .icon{
+    font-size: 4.5em;
+}
+.contact .info h3{
+    color: #000;
+}
+.contact .info p{
+    font-size: 0.8em;
+}
+.footer{
+    background-color: #0D1B1E;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span{
+    color: #6A8EAE;
+}
+@media (max-width:1023px){
+    header{
+        padding: 11px 17px;
+    }
+    .navigation a{
+        padding-left: 7px;
+    }
+    .title{
+        font-size: 1.7em;
+    }
+    section{
+        padding: 78px 18px;
+    }
+    .main-content h2{
+        font-size: 0.9em;
+    }
+    .main-content h3{
+        font-size: 1.5em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:641px){
+    body{
+        font-size: 10px;
+    }
+    .main-content h2{
+        font-size: 0.6em;
+    }
+    .main-content h3{
+        font-size: 1.2em;
+    }
+}
+@media (max-width:300px){
+    body{
+        font-size: 8px;
+    }
+}
+
+</style>
+<body>
+
+    <header>
+        <a href="#" class="logo">GHAFOUR</a>
+        <nav class="ghafour">
+            <a href="#Services">Services</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+    <section class="main">
+        <div>
+            <h2>Hello , I'm AB Ghafour <br><span>Graphic Design</span></h2>
+            <h3>Thank you for visiting my website</h3>
+            <a href="#Projects" class="main-btn">View My work</a>
+            <div class="social-icons">
+                <a href="https://www.behance.net/abghafrebbouh1" target="_blank" title="go to my behance "><i class="fa-brands fa-behance"></i></a>
+                <a href="https://www.upwork.com/services/product/design-the-service-of-a-graphic-designer-in-branding-design-and-marketing-design-1759678880358670336?ref=project_share" target="_blank" title="go to my upwork"><i class="fa-brands fa-upwork"></i></a>
+                <a href="https://www.tiktok.com/@abghafour0?is_from_webapp=1&sender_device=pc" target="_blank" title="go to my tiktok"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="cards"id="Services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                </div>
+                <div class="info">
+                    <h3>Branding Design</h3>
+                    <p>In this service, we will design everything related to the Branding Design 
+                        including the logo, colors, and identity of the Brand, which will be determined the Brand Guidelines of this Brand </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-palette"></i>
+                </div>
+                <div class="info">
+                    <h3>Marketing Design</h3>
+                    <p> In this service,we will design designs for the purpose of 
+                        marketing a specific product or service,
+                       such as business cards, advertising banners, flyers...</p>
+                </div>
+            </div>
+         
+        </div>
+    </section>
+    <section class="Projects" id="Projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+            <div class="Projects-card">
+                <div class="Projects-image">
+                    <img src="images/yoga ba.jpg">
+                </div>
+                <div class="Projects-info">
+                    <p class="Projects-category">ZenCore logo</p>
+                    <strong class="Projects-title">
+                        <a href="https://www.behance.net/gallery/193988693/ZenCore-logo" target="_blank" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="Projects-card">
+                <div class="Projects-image">
+                    <img src="images/ghhf.jpg">
+                </div>
+                <div class="Projects-info">
+                    <p class="Projects-category">LOGO</p>
+                    <strong class="Projects-title">
+                        <a href="https://www.behance.net/gallery/190435453/LOGO" target="_blank" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="Projects-card">
+                <div class="Projects-image">
+                    <img src="images/kkkkk.jpg">
+                </div>
+                <div class="Projects-info">
+                    <p class="Projects-category">Logo for 
+                        Candles company</p>
+                    <strong class="Projects-title">
+                        <a href="https://www.behance.net/gallery/187803813/Candles-company" target="_blank" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="Projects-card">
+                <div class="Projects-image">
+                    <img src="images/رلؤلابلت.jpg">
+                </div>
+                <div class="Projects-info">
+                    <p class="Projects-category">Logo for a solar panel company</p>
+                    <strong class="Projects-title">
+                        <a href="https://www.behance.net/gallery/182809205/logo-design" target="_blank" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="Projects-card">
+                <div class="Projects-image">
+                    <img src="images/اقفغاقفغقفغقفغRTHG.jpg">
+                </div>
+                <div class="Projects-info">
+                    <p class="Projects-category">Logo for a construction company</p>
+                    <strong class="Projects-title">
+                        <a href="https://www.behance.net/gallery/181088253/Grass-Construction-company" target="_blank" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="Projects-card">
+                <div class="Projects-image">
+                    <img src="images/hhhhhh.jpg">
+                </div>
+                <div class="Projects-info">
+                    <p class="Projects-category">Logo for a programming company</p>
+                    <strong class="Projects-title">
+                        <a href="https://www.behance.net/gallery/181635125/Nine-Coding-logo" target="_blank"class="more-details">
+                            More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="Projects-card">
+                <div class="Projects-image">
+                    <img src="images/coffee-mug-and-cup-mockup.jpg">
+                </div>
+                <div class="Projects-info">
+                    <p class="Projects-category">Logo for a coffee shop</p>
+                    <strong class="Projects-title">
+                        <a href="https://www.behance.net/gallery/178191017/Mohamed-coffee-shop" target="_blank" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="Projects-card">
+                <div class="Projects-image">
+                    <img src="images/بسيبسيبس.jpg">
+                </div>
+                <div class="Projects-info">
+                    <p class="Projects-category">Logo for a perfume company</p>
+                    <strong class="Projects-title">
+                        <a href="https://www.behance.net/gallery/179042663/Perfume-logo" target="_blank" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+            <div class="Projects-card">
+                <div class="Projects-image">
+                    <img src="images/ت.jpg">
+                </div>
+                <div class="Projects-info">
+                    <p class="Projects-category">Logo for a pet store</p>
+                    <strong class="Projects-title">
+                        <a href="https://www.behance.net/gallery/178715527/MAHDI-pet-shop" target="_blank" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cards contact" id="Contact">
+        <h2 class="title">Let's work together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Gmail</h3>
+                    <p>ghafourrebbouh2008@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>Rebbouh AB Ghafour</span></p>
+        <div class="social-icons">
+            <a href="https://www.behance.net/abghafrebbouh1" target="_blank" title="go to my behance "><i class="fa-brands fa-behance"></i></a>
+            <a href="https://www.instagram.com/ghafourrebbouh4?utm_source=qr" target="_blank" title="Under modification"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@abghafour0?is_from_webapp=1&sender_device=pc" target="_blank" title="go to my tiktok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
